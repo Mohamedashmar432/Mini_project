@@ -5,11 +5,12 @@ class database
     public static function get_connect()
     {
         $servername = "localhost";
-        $username = "";
-        $password = "";
+        $username = "mini_project";
+        $password = "Root123";
+        $db_name = "mini_project";
         
         // Create connection
-        $conn = new mysqli($servername, $username, $password);
+        $conn = new mysqli($servername, $username, $password,$db_name);
         
         // Check connection
         if ($conn->connect_error) {
