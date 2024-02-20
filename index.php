@@ -3,8 +3,10 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Login/Signup Form With Slider</title>
-  <link rel='stylesheet' href='//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'><link rel="stylesheet" href="css/style1.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini_project </title>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'>
+  <link rel="stylesheet" href="css/style1.css">
 
 </head>
 <body>
@@ -50,7 +52,8 @@
 </div>
 <!-- partial -->
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script><script  src="js/script.js"></script>
+<script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'>
+</script><script  src="js/script.js"></script>
 
 </body>
 </html>

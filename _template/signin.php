@@ -1,14 +1,12 @@
 <div class="form form-signin">
-      <form action="#">
+      <form action="./test.php" method="post">
         <lable>E-MAIL</lable>
-        <input type="email" 
-               placeholder="Your e-mail">
+        <input type="email"  placeholder="Your e-mail" name = "email">
         <lable>PASSWORD</lable>
-        <input type="password" 
-               placeholder="Your password">
+        <input type="password"  placeholder="Your password" name = "password">
         <input type="submit"
                class="form-btn"
-               value="Sign In"/>
+               value="submit">
         <br><br>
         <a href="#" class="lined-link to-signup-link">Create new account</a>
       </form>
