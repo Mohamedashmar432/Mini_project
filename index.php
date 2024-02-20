@@ -1,52 +1,56 @@
+<?php include 'libs/load.php'; ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Mini_project from Mohamed ashmar</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>CodePen - Login/Signup Form With Slider</title>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'><link rel="stylesheet" href="css/style1.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    	<meta charset=utf-8>
-    	<meta name=viewport content="width=device-width, initial-scale=1">
-	    <title>Sign Up</title>
-	    <link rel="stylesheet" href="main.css">
-    </head>
-    
-    <body>
-    	<div class="container">
-    		<div class="signup">
-    			<form>
-    				<h1>Sign Up</h1>
-    				<label>Full Name:</label><br>
-    				<input type="text" name="username" required><br>
-
-    				<label>E-mail:</label><br>
-    				<input type="email" name="email" required><br>
-
-    				<label>Password:</label><br>
-    				<input type="password" name="password" required><br>
-
-    				<label>Confirm Password</label><br>
-    				<input type="password" name="passwordcnf" required><br>
-    				<button type="submit">submit</button>
-    			</form>	
-			        <a class="button_1" href="login.php">sign in</a>
-    		</div>
-			
-    		<div class="info">
-    			<div class="filter"></div>
-
-    			
-    		</div>
-    	</div>
-    </body>
-</html>
-<!-- partial -->
+<div class="main-box">
+  <div class="slider-cont">
+    <div class="signup-slider">
+      <div class="img-txt">
+        <div class="img-layer"></div>
+        <h1>The hardest part of starting up is starting out for you.</h1>
+        <img src="assets/pexels1.jpg"/>
+      </div>
+      <div class="img-txt">
+        <div class="img-layer"></div>
+        <h1>We understand you and your business, We have the right solutions for you.</h1>
+        <img src="assets/pexels2.jpeg"/>
+      </div>
+      <div class="img-txt">
+        <div class="img-layer"></div>
+        <h1>Join US Now!</h1>
+        <img src="assets/pexels3.jpeg"/>
+      </div>
+    </div>
+  </div>
   
+  
+  <div class="form-cont">
+
+    <div class="top-buttons">
+      <button class="to-signup top-active-button">
+        Sign Up
+      </button>
+      <button class="to-signin">
+        Sign In
+      </button>
+    </div>
+    
+    <?php load('signup'); ?>
+
+    <?php load('signin'); ?>
+  </div>
+  <div class="clear-fix"></div>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script><script  src="js/script.js"></script>
+
 </body>
 </html>
