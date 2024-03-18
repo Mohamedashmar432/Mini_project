@@ -1,5 +1,8 @@
-<?php
-include "libs/load.php";
+<?php 
+ob_start(); 
+error_reporting(0);
+include 'libs/load.php';
+
 ?>
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
@@ -10,9 +13,9 @@ include "libs/load.php";
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>Signin</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <style>
@@ -93,78 +96,48 @@ include "libs/load.php";
       display: block !important;
     }
 
-    .col {
+    .form-signup {
+      max-width: 400px;
+      padding: 1rem;
+    }
+
+    .form-signup .form-floating:focus-within {
+      z-index: 2;
+    }
+
+    .form-signup input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    .form-signup input[type="text"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .form-signup input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .container-fluid {
       position: relative;
-      top: 20px;
-
+      top: -184px;
     }
 
-    .nav-link1 {
-      position:absolute;
-      left: 10px;
-      display: block;
-      padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-      font-size: var(--bs-nav-link-font-size);
-      font-weight: var(--bs-nav-link-font-weight);
-      color: var(--bs-nav-link-color);
-      text-decoration: none;
-      background: 0 0;
-      border: 0;
-      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
-    }
-
-    .mar {
-      margin: 20px;
-    }
-
-    .pre1 {
-      margin-top: 200px;
-      margin-bottom: 200px;
-    }
-
-    .row {
+    .m-auto {
+      margin: auto;
       position: relative;
-      top: 10px;
-
+      top: 150px;
+      left: -150px;
     }
 
-    .card {
-      --bs-card-border-color: var(--bs-info-border-subtle);
-
-    }
-
-    #businessbut {
+    #floatingemail {
       position: relative;
-      top: -180px;
-      left: 800px;
-      /* --bs-btn-border-color: var(--bs-info-border-subtle); */
-      /* --bs-btn-hover-color: #fff; */
-      /* --bs-btn-hover-bg: var(--bs-info-border-subtle); */
-      /* --bs-btn-hover-border-color: var(--bs-info-border-subtle); */
-      /* --bs-btn-color:white; */
-    }
-
-    .carousel-caption {
-      position: relative;
-    }
-
-    a {
-      color: rgb(221 227 235);
-      text-decoration: unset;
-    }
-
-    #particle-js {
-      width: 100%;
-      height: 100%;
-      background-color: transparent;
-    }
-
-    .container {
-      margin: 20px;
-    }
-
-    .fs-5 {
-      text-align: justify;
+      top: -10px;
     }
 
     .nav-item.dropdown {
@@ -172,21 +145,19 @@ include "libs/load.php";
       left: 875px !important;
       margin-top: var(--bs-dropdown-spacer);
     }
-    .about
-    {
-      position: relative;
-      top:25px;
-    }
-
-    
+    .nav-link1
+      {
+        position:relative;
+        left:10px;  
+      }    
   </style>
 
 
   <!-- Custom styles for this template -->
-  <link href="css/carousel.css" rel="stylesheet">
+  <link href="sign-in.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex align-items-center py-4 bg-body-tertiary">
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="check2" viewBox="0 0 16 16">
       <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
@@ -246,26 +217,11 @@ include "libs/load.php";
       </li>
     </ul>
   </div>
-
-
   <?php load('header'); ?>
-  <main>
 
-    <?php load('slider'); ?>
-
-
-
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <?php load('marketer'); ?>
-
-    <!-- FOOTER -->
-    <?php load('footer'); ?>
+  <?php load('signup'); ?>
   </main>
   <script src="js/bootstrap.bundle.min.js"></script>
-
 
 </body>
 

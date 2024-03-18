@@ -96,11 +96,10 @@ include "libs/load.php";
     .col {
       position: relative;
       top: 20px;
-
     }
 
     .nav-link1 {
-      position:absolute;
+      position: absolute;
       left: 10px;
       display: block;
       padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -112,73 +111,28 @@ include "libs/load.php";
       border: 0;
       transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     }
-
+ 
     .mar {
       margin: 20px;
-    }
+    } 
 
-    .pre1 {
-      margin-top: 200px;
-      margin-bottom: 200px;
-    }
-
-    .row {
+      .price {
       position: relative;
-      top: 10px;
+      right: -380px;
+    } 
 
-    }
-
-    .card {
-      --bs-card-border-color: var(--bs-info-border-subtle);
-
-    }
-
-    #businessbut {
+    #but2 {
       position: relative;
-      top: -180px;
-      left: 800px;
-      /* --bs-btn-border-color: var(--bs-info-border-subtle); */
-      /* --bs-btn-hover-color: #fff; */
-      /* --bs-btn-hover-bg: var(--bs-info-border-subtle); */
-      /* --bs-btn-hover-border-color: var(--bs-info-border-subtle); */
-      /* --bs-btn-color:white; */
-    }
-
-    .carousel-caption {
-      position: relative;
-    }
-
-    a {
-      color: rgb(221 227 235);
-      text-decoration: unset;
-    }
-
-    #particle-js {
-      width: 100%;
-      height: 100%;
-      background-color: transparent;
-    }
-
-    .container {
-      margin: 20px;
-    }
-
-    .fs-5 {
-      text-align: justify;
-    }
+      left: -350px;
+      top: -30px;
+    } 
 
     .nav-item.dropdown {
 
       left: 875px !important;
       margin-top: var(--bs-dropdown-spacer);
     }
-    .about
-    {
-      position: relative;
-      top:25px;
-    }
 
-    
   </style>
 
 
@@ -250,22 +204,12 @@ include "libs/load.php";
 
   <?php load('header'); ?>
   <main>
-
-    <?php load('slider'); ?>
-
-
-
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <?php load('marketer'); ?>
+    <?php load('buyer') ?>
 
     <!-- FOOTER -->
     <?php load('footer'); ?>
   </main>
   <script src="js/bootstrap.bundle.min.js"></script>
-
 
 </body>
 

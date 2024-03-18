@@ -2,20 +2,31 @@
 
 class database
 {
+    public static $conn = null;
     public static function get_connect()
     {
-        $servername = "localhost";
-        $username = "mini_project";
-        $password = "Root123";
-        $db_name = "mini_project";
-        
-        // Create connection
-        $conn = new mysqli($servername, $username, $password,$db_name);
-        
-        // Check connection
-        if ($conn->connect_error) {
-          die("Connection failed: " . $conn->connect_error);
+        if(database::$conn == null)
+        {
+            $servername = "localhost";
+            $username = "root1";
+            $password = "Root@098";
+            $dbname = "mini_project";
+
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            // Check connection
+            if ($conn->connect_error) 
+            {
+              die("Connection failed: " . $conn->connect_error);
+            }else
+            {
+                database::$conn = $conn;
+                return database::$conn;
+            }
+        }else 
+        {
+            return database::$conn;
         }
-        echo "Connected successfully";
+        
     }
-}    
+}

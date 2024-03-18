@@ -15,6 +15,7 @@ include "libs/load.php";
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
+
   <style>
     .bd-placeholder-img {
       font-size: 1.125rem;
@@ -96,11 +97,10 @@ include "libs/load.php";
     .col {
       position: relative;
       top: 20px;
-
     }
 
     .nav-link1 {
-      position:absolute;
+      position: absolute;
       left: 10px;
       display: block;
       padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -113,72 +113,98 @@ include "libs/load.php";
       transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     }
 
+    .txt1 {
+
+      position: absolute;
+      top: 150px;
+      right: 50px;
+
+
+    }
+
+    .txt2 {
+      position: absolute;
+      top: 220px;
+      left: 680px;
+    }
+
+    #but1 {
+      position: absolute;
+      top: 280px;
+      right: 70px;
+    }
+
     .mar {
       margin: 20px;
     }
 
-    .pre1 {
-      margin-top: 200px;
-      margin-bottom: 200px;
-    }
-
-    .row {
+    #but2 {
       position: relative;
-      top: 10px;
-
+      left: 10px;
     }
 
-    .card {
-      --bs-card-border-color: var(--bs-info-border-subtle);
-
-    }
-
-    #businessbut {
+    #but3 {
       position: relative;
-      top: -180px;
+      left: 30px;
+    }
+
+    #but4 {
+      position: relative;
+      left: 60px;
+    }
+
+    #but5 {
+      position: relative;
+      left: 90px;
+    }
+
+    .pic {
+      position: relative;
+      left: -350px;
+      top: 50px;
+    }
+
+    .txt3 {
+      position: absolute;
+      left: 700px;
+      top: 1650px;
+    }
+
+    .txt4 {
+      position: absolute;
+      left: 700px;
+      top: 1700px;
+    }
+
+    #but6 {
+      position: absolute;
       left: 800px;
-      /* --bs-btn-border-color: var(--bs-info-border-subtle); */
-      /* --bs-btn-hover-color: #fff; */
-      /* --bs-btn-hover-bg: var(--bs-info-border-subtle); */
-      /* --bs-btn-hover-border-color: var(--bs-info-border-subtle); */
-      /* --bs-btn-color:white; */
-    }
-
-    .carousel-caption {
-      position: relative;
-    }
-
-    a {
-      color: rgb(221 227 235);
-      text-decoration: unset;
-    }
-
-    #particle-js {
-      width: 100%;
-      height: 100%;
-      background-color: transparent;
+      top: 1750px;
     }
 
     .container {
-      margin: 20px;
+      
+      position: relative;
+      top:10px;
     }
 
-    .fs-5 {
-      text-align: justify;
+    .pricing-header {
+      max-width: 700px;
     }
-
-    .nav-item.dropdown {
-
-      left: 875px !important;
-      margin-top: var(--bs-dropdown-spacer);
+    .txt6
+    {
+      text-align: center;
     }
     .about
     {
       position: relative;
       top:25px;
     }
+    .nav-item.dropdown {
 
-    
+left: 875px !important;
+margin-top: var(--bs-dropdown-spacer);
+}
   </style>
 
 
@@ -250,22 +276,13 @@ include "libs/load.php";
 
   <?php load('header'); ?>
   <main>
-
-    <?php load('slider'); ?>
-
-
-
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <?php load('marketer'); ?>
+    <?php load('seller'); ?>
+    <?php load('pricing'); ?>
 
     <!-- FOOTER -->
     <?php load('footer'); ?>
   </main>
   <script src="js/bootstrap.bundle.min.js"></script>
-
 
 </body>
 

@@ -1,68 +1,87 @@
-<div class="container marketing">
+<div class="mar">
+  <h1 class="display-6">Top Business Categories in India</h1>
+  <pre class="h4 p-3 bg-info bg-opacity-10 border border-info border-rounded-start-0 rounded-end"><em>
+  <a href="#">Franchise Opportunities</a>        <a href="#">Storage and Warehousing</a>        <a href="#">Manufacturing Business</a>       
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Heading</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <h2 class="fw-normal">Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+  <a href="#">Restaurants</a>                    <a href="#">Hotels</a>                         <a href="#">Pharmacies</a>                   
+
+  <a href="#">Gas Stations</a>                   <a href="#">Websites and Ecommerce</a>         <a href="#">car Washes</a>                   
+                       
+</em></pre>
+
+  <div class="border border-info-subtle">
+    <h2>
+      <pre class="pre1"><center> “What started as a passionate side hustle
+      is now a $2M business.”</center></pre>
+    </h2>
+    <a class="btn btn-primary" aria-current="page" id="businessbut" href="./main.buyer.php">Start Business</a>
+  </div>
 
 
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Find a business for sale</h4>
+          <p class="card-text">Find your passion with our top listed business</p>
+          <a href="./main.buyer.php" class="btn btn-primary">Let's Go</a>
+        </div>
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Place to sell a business</h4>
+          <p class="card-text">Reach 15x more buyers on the most active marketplace.</p>
+          <a href="./main.seller.php" class="btn btn-primary">Let's Go </a>
+        </div>
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+  </div>
+  <br>
+  <h3>Featured Businesses</h3>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="assets/car1.jpg" class="card-img-top" alt="..." width="250px" height="350px">
+        <div class="card-body">
+          <h5 class="card-title">Established car wash for sale</h5>
+          <p class="card-text">Royapettah,chennai,Tamil nadu-600 014</p>
+        </div>
       </div>
     </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/hotel2.jpg" class="card-img-top" alt="..." width="250px" height="350px">
+        <div class="card-body">
+          <h5 class="card-title">5 Star Hotel with bar</h5>
+          <p class="card-text">Uday chand marg,Kotla Mubarakpur,Delhi-110 003.</p>
+        </div>
+       
 
-    <hr class="featurette-divider">
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/manufacture2.jpg" class="card-img-top" alt="..." width="250px" height="350px">
+        <div class="card-body">
+          <h5 class="card-title">Monthly 50 lacks turn over Steel Manufacture for Sale </h5>
+          <p class="card-text">Queens Land,Lokhandwala circle,Andheri(west),Mumbai,Maharastra-400 053.</p>
+        </div>
+        
 
-    <!-- /END THE FEATURETTES -->
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="assets/restaurent2.jpeg" class="card-img-top" alt="..." width="250px" height="350px">
+        <div class="card-body">
+          <h5 class="card-title">Fully furnished Restaurent with bar for sale</h5>
+          <p class="card-text">Arumbakkam,chennai,tamil nadu-600 106.</p>
+        </div>
+       
 
-  </div><!-- /.container -->
+      </div>
+    </div>
+  </div>
+</div>
