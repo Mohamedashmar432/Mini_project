@@ -5,7 +5,7 @@ if ($_POST['username'] != null && $_POST['password'] != null && $_POST['email'] 
   $email = $_POST["email"];
   $result = user::signup($username, $password, $email);
   if ($result) {
-    header('Location:main.php');
+    header('Location:index.php');
     exit;
   } else { ?> <script>
       alert("something went wrong try again.")
