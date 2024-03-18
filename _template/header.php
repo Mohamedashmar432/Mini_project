@@ -1,3 +1,4 @@
+<?php include_once '../libs/user.class.php'; ?>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">BuzHub</a>
@@ -23,15 +24,14 @@
               <?php echo $user; ?>
             </a>
           <?php } else { ?>
-            <a class="nav-link1 dropdown-toggle" href="./main.signin.php">
-              Sign in</a><?php } ?>
-          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Profile</a></li>
-              <li><a class="dropdown-item" href="#">Logout</a></li>
+            <a class="nav-link1 dropdown-toggle" href="./main.signin.php">signin</a><?php } ?>
 
-            </ul>
-          
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="main.php?logout"<?php user::logout();?>>Logout</a></li>
+
+          </ul>
+
         </li>
       </ul>
     </div>

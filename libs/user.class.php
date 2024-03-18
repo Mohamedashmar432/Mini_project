@@ -77,4 +77,11 @@ class user
         If UserSession is active, set it to inactive.
         */
     }
+    public static function logout()
+    {
+        if(isset($_GET['logout']))
+        {
+            session_unset();
+        }
+    }
 }

@@ -1,11 +1,11 @@
 <div class="mar">
   <h1 class="display-6">Top Business Categories in India</h1>
   <pre class="h4 p-3 bg-info bg-opacity-10 border border-info border-rounded-start-0 rounded-end"><em>
-  <a href="#">Franchise Opportunities</a>        <a href="#">Storage and Warehousing</a>        <a href="#">Manufacturing Business</a>       
+  <a href="./main.buyer.php">Franchise Opportunities</a>        <a href="./main.buyer.php">Storage and Warehousing</a>        <a href="./main.buyer.php">Manufacturing Business</a>       
 
-  <a href="#">Restaurants</a>                    <a href="#">Hotels</a>                         <a href="#">Pharmacies</a>                   
+  <a href="./main.buyer.php">Restaurants</a>                    <a href="./main.buyer.php">Hotels</a>                         <a href="./main.buyer.php">Pharmacies</a>                   
 
-  <a href="#">Gas Stations</a>                   <a href="#">Websites and Ecommerce</a>         <a href="#">car Washes</a>                   
+  <a href="./main.buyer.php">Gas Stations</a>                   <a href="./main.buyer.php">Websites and Ecommerce</a>         <a href="./main.buyer.php">car Washes</a>                   
                        
 </em></pre>
 
@@ -57,7 +57,7 @@
           <h5 class="card-title">5 Star Hotel with bar</h5>
           <p class="card-text">Uday chand marg,Kotla Mubarakpur,Delhi-110 003.</p>
         </div>
-       
+
 
       </div>
     </div>
@@ -68,7 +68,7 @@
           <h5 class="card-title">Monthly 50 lacks turn over Steel Manufacture for Sale </h5>
           <p class="card-text">Queens Land,Lokhandwala circle,Andheri(west),Mumbai,Maharastra-400 053.</p>
         </div>
-        
+
 
       </div>
     </div>
@@ -79,7 +79,7 @@
           <h5 class="card-title">Fully furnished Restaurent with bar for sale</h5>
           <p class="card-text">Arumbakkam,chennai,tamil nadu-600 106.</p>
         </div>
-       
+
 
       </div>
     </div>
