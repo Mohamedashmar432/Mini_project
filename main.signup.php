@@ -1,5 +1,5 @@
-<?php 
-ob_start(); 
+<?php
+ob_start();
 error_reporting(0);
 include 'libs/load.php';
 
@@ -13,7 +13,7 @@ include 'libs/load.php';
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Signin</title>
+  <title>Signup</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -145,11 +145,11 @@ include 'libs/load.php';
       left: 875px !important;
       margin-top: var(--bs-dropdown-spacer);
     }
-    .nav-link1
-      {
-        position:relative;
-        left:10px;  
-      }    
+
+    .nav-link1 {
+      position: relative;
+      left: 10px;
+    }
   </style>
 
 

@@ -1,14 +1,14 @@
 <?php include_once '../libs/user.class.php'; ?>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">BuzHub</a>
+    <a class="navbar-brand" href="../index.php">BuzHub</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./main.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./main.buyer.php">Buyer</a>
@@ -28,7 +28,7 @@
 
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><a class="dropdown-item" href="main.php?logout"<?php user::logout();?>>Logout</a></li>
+            <li><a class="dropdown-item" href="main.php?logout" <?php user::logout(); ?>>Logout</a></li>
 
           </ul>
 
