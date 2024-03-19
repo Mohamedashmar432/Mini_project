@@ -1,21 +1,23 @@
 <?php
 include_once("./libs/user.class.php");
-if($_POST['headline']!=null && $_POST['price']!=null && $_POST['address']!=null && $_POST['email']!=null)
-{
-$headline=$_POST['headline'];
-$address=$_POST['address'];
-$price= $_POST['price'];
-$email=$_POST['email'];
-    $result=user::sell($headline,$price,$address,$email);
-   if($result)
-   {
-    ?><script>alert("Your business will be verified and listed within 24 hours")</script><?php
-   }else{
-    ?><script>alert("Something went wrong try again later.")</script><?php
-   }
-}
+if ($_POST['headline'] != null && $_POST['price'] != null && $_POST['address'] != null && $_POST['email'] != null) {
+    $headline = $_POST['headline'];
+    $address = $_POST['address'];
+    $price = $_POST['price'];
+    $email = $_POST['email'];
+    $result = user::sell($headline, $price, $address, $email);
+    if ($result) {
+?><script>
+            alert("Your business will be verified and listed within 24 hours")
+        </script><?php
+                } else {
+                    ?><script>
+            alert("Something went wrong try again later.")
+        </script><?php
+                }
+            }
 
-?>
+                    ?>
 
 
 <div class=mar>
@@ -24,7 +26,7 @@ $email=$_POST['email'];
     <form method="post" action="<?php $_SERVER["PHP_SELF"]; ?>">
         <div class="mb-3">
             <label class="form-label">What type of Business is this?</label>
-            <select class="form-select" aria-label="Default select example"  name="Business" required>
+            <select class="form-select" aria-label="Default select example" name="Business" required>
                 <option value="1">Franchise</option>
                 <option value="2">Restaurants</option>
                 <option value="3">Gas Stations</option>
@@ -87,8 +89,24 @@ $email=$_POST['email'];
             </div>
         </div>
 </div>
-<button type="submit" class="btn btn-primary" id="but1">Submit</button>
+<button type="submit" class="btn btn-primary" id="but1" data-bs-toggle="modal" data-bs-target="#exampleModal" required>Submit</button>
 </form>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Buzhub</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Your busines will validate by our team and added to our business selling list within 24 hrs.
+            </div>
+            <div class="modal-footer">
+                <a href="index.php" class="btn btn-primary">Home</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 </div>

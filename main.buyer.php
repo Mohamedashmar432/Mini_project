@@ -111,28 +111,29 @@ include "libs/load.php";
       border: 0;
       transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     }
- 
+
     .mar {
       margin: 20px;
-    } 
+    }
+    #but1
+    {
+      left:10px;
+    }
 
-      .price {
-      position: relative;
-      right: -380px;
-    } 
+    
 
     #but2 {
       position: relative;
       left: -350px;
       top: -30px;
-    } 
+    }
+   
 
     .nav-item.dropdown {
 
       left: 875px !important;
       margin-top: var(--bs-dropdown-spacer);
     }
-
   </style>
 
 
