@@ -100,7 +100,7 @@ include "libs/load.php";
     }
 
     .nav-link1 {
-      position:absolute;
+      position: absolute;
       left: 10px;
       display: block;
       padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -172,13 +172,11 @@ include "libs/load.php";
       left: 875px !important;
       margin-top: var(--bs-dropdown-spacer);
     }
-    .about
-    {
-      position: relative;
-      top:25px;
-    }
 
-    
+    .about {
+      position: relative;
+      top: 25px;
+    }
   </style>
 
 

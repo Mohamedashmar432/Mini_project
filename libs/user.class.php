@@ -52,8 +52,9 @@ class user
     public static function sell($headline, $price, $address, $email)
     {
         $conn = database::get_connect();
-        $sql = $sql = "INSERT INTO `sell` (`Headline`, `price`, `Address`, `Email`)
-            VALUES ('$headline', '$price', '$address', '$email')";
+        $sql = "INSERT INTO `sell` (`Headline`, `price`, `Address`, `Email`, `image`)
+        VALUES ('$headline', '$price', '$address', '$email', 'image.jpeg' )";
+
         $result = false;
 
         if ($conn->query($sql) === TRUE) {

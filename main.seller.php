@@ -183,28 +183,29 @@ include "libs/load.php";
     }
 
     .container {
-      
+
       position: relative;
-      top:10px;
+      top: 10px;
     }
 
     .pricing-header {
       max-width: 700px;
     }
-    .txt6
-    {
+
+    .txt6 {
       text-align: center;
     }
-    .about
-    {
+
+    .about {
       position: relative;
-      top:25px;
+      top: 25px;
     }
+
     .nav-item.dropdown {
 
-left: 875px !important;
-margin-top: var(--bs-dropdown-spacer);
-}
+      left: 875px !important;
+      margin-top: var(--bs-dropdown-spacer);
+    }
   </style>
 
 

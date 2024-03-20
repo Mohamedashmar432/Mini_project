@@ -7,13 +7,13 @@ if ($_POST['headline'] != null && $_POST['price'] != null && $_POST['address'] !
     $email = $_POST['email'];
     $result = user::sell($headline, $price, $address, $email);
     if ($result) {
-?><script>
-            alert("Your business will be verified and listed within 24 hours")
-        </script><?php
+?><div class="alert alert-success" role="alert">
+  Your Application has been sibmitted. it will be validate within 24 hrs and our team will reach out you. <a href="main.buyer.php" class="alert-link">Click here</a> to see more intresting Business.
+</div><?php
                 } else {
-                    ?><script>
-            alert("Something went wrong try again later.")
-        </script><?php
+                    ?><div class="alert alert-danger" role="alert">
+                    Something went wrong, try again later <a href="index.php" class="alert-link">Click here</a> to back to Home.
+                  </div><?php
                 }
             }
 
@@ -89,9 +89,9 @@ if ($_POST['headline'] != null && $_POST['price'] != null && $_POST['address'] !
             </div>
         </div>
 </div>
-<button type="submit" class="btn btn-primary" id="but1" data-bs-toggle="modal" data-bs-target="#exampleModal" required>Submit</button>
+<button type="submit" class="btn btn-primary" id="but1"  required>Submit</button>
 </form>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -106,7 +106,7 @@ if ($_POST['headline'] != null && $_POST['price'] != null && $_POST['address'] !
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 </div>

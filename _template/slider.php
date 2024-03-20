@@ -4,7 +4,7 @@
       <img src="./assets/business_logo3.jpg" class="d-block w-100" alt="..." width="1120px" height="820px">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="./assets/pexels4.jpg" class="d-block w-100" alt="..."width="1120px" height="820px">
+      <img src="./assets/pexels4.jpg" class="d-block w-100" alt="..." width="1120px" height="820px">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">

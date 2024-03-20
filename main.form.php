@@ -93,7 +93,7 @@ include "libs/load.php";
             display: block !important;
         }
 
-        
+
         .nav-link1 {
             position: absolute;
             left: 10px;
@@ -111,25 +111,26 @@ include "libs/load.php";
         .mar {
             margin: 20px;
         }
-        .fs-6
-        {
-            color:aqua;
-        }
-        #but1
-    {
-      position:relative;
-      left:40px;
-    }
-    .about
-    {
-      position: relative;
-      top:25px;
-    }
-    .nav-item.dropdown {
 
-left: 875px !important;
-margin-top: var(--bs-dropdown-spacer);
-}
+        .fs-6 {
+            color: aqua;
+        }
+
+        #but1 {
+            position: relative;
+            left: 40px;
+        }
+
+        .about {
+            position: relative;
+            top: 25px;
+        }
+
+        .nav-item.dropdown {
+
+            left: 875px !important;
+            margin-top: var(--bs-dropdown-spacer);
+        }
     </style>
 
 
