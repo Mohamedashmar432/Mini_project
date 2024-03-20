@@ -112,7 +112,7 @@ include "libs/load.php";
             margin: 20px;
         }
 
-        .fs-6 {
+        .fw-bolder {
             color: aqua;
         }
 

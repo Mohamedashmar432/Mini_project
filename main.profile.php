@@ -96,6 +96,7 @@ include "libs/load.php";
     .col {
       position: relative;
       top: 20px;
+
     }
 
     .nav-link1 {
@@ -115,24 +116,66 @@ include "libs/load.php";
     .mar {
       margin: 20px;
     }
-    #but1
-    {
-      left:10px;
+
+    .pre1 {
+      margin-top: 200px;
+      margin-bottom: 200px;
     }
-    .card {
-    --bs-card-border-color: var(--bs-info-border-subtle);
-    }
-    #but2 {
+
+    .row {
       position: relative;
-      left: -350px;
-      top: -30px;
+      top: 10px;
+
     }
-   
+
+    .card {
+      --bs-card-border-color: var(--bs-info-border-subtle);
+
+    }
+
+    #businessbut {
+      position: relative;
+      top: -180px;
+      left: 800px;
+      /* --bs-btn-border-color: var(--bs-info-border-subtle); */
+      /* --bs-btn-hover-color: #fff; */
+      /* --bs-btn-hover-bg: var(--bs-info-border-subtle); */
+      /* --bs-btn-hover-border-color: var(--bs-info-border-subtle); */
+      /* --bs-btn-color:white; */
+    }
+
+    .carousel-caption {
+      position: relative;
+    }
+
+    a {
+      color: rgb(221 227 235);
+      text-decoration: unset;
+    }
+
+    #particle-js {
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+    }
+
+    .container {
+      margin: 20px;
+    }
+
+    .fs-5 {
+      text-align: justify;
+    }
 
     .nav-item.dropdown {
 
       left: 875px !important;
       margin-top: var(--bs-dropdown-spacer);
+    }
+
+    .about {
+      position: relative;
+      top: 25px;
     }
   </style>
 
@@ -205,12 +248,13 @@ include "libs/load.php";
 
   <?php load('header'); ?>
   <main>
-    <?php load('buyer') ?>
 
+   <?php load('profile'); ?>
     <!-- FOOTER -->
     <?php load('footer'); ?>
   </main>
   <script src="js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 

@@ -1,13 +1,13 @@
 <footer class="container">
   <div class="about">
     <h2>About Buzhub</h2>
-    <pre class="fs-6"><span style="color: white;">
+    <pre class="fs-6">
     Buzhub is an international platform where buying and selling businesses, properties, and assets is made
     simple.Our platform cuts out the middleman, providing direct connections between buyers and sellers worldwide.
     With an easy-to-use interface and a global network, we facilitate seamless transactions,empowering users to trade 
     confidently and efficiently. Join us and experience the future of online commerce, where convenience, transparency,
     and reliability are at the core of everything we do.
-</span>
+
     </pre>
   </div>
   <a href="https://github.com/Mohamedashmar432/Mini_project" target="_blank">

@@ -8,21 +8,21 @@ if ($_POST['headline'] != null && $_POST['price'] != null && $_POST['address'] !
     $result = user::sell($headline, $price, $address, $email);
     if ($result) {
 ?><div class="alert alert-success" role="alert">
-  Your Application has been sibmitted. it will be validate within 24 hrs and our team will reach out you. <a href="main.buyer.php" class="alert-link">Click here</a> to see more intresting Business.
-</div><?php
-                } else {
-                    ?><div class="alert alert-danger" role="alert">
-                    Something went wrong, try again later <a href="index.php" class="alert-link">Click here</a> to back to Home.
-                  </div><?php
-                }
+            Your Application has been sibmitted. it will be validate within 24 hrs and our team will reach out you. <a href="main.buyer.php" class="alert-link">Click here</a> to see more intresting Business.
+        </div><?php
+            } else {
+                ?><div class="alert alert-danger" role="alert">
+            Something went wrong, try again later <a href="index.php" class="alert-link">Click here</a> to back to Home.
+        </div><?php
             }
+        }
 
-                    ?>
+                ?>
 
 
 <div class=mar>
     <h2>Tell us about your business</h2><br>
-    <pre class="fs-6">You may keep certain information confidential but keep in mind,the more details you provide the more effective your listing will be.</pre>
+    <pre class="fw-bolder">You may keep certain information confidential but keep in mind,the more details you provide the more effective your listing will be.</pre>
     <form method="post" action="<?php $_SERVER["PHP_SELF"]; ?>">
         <div class="mb-3">
             <label class="form-label">What type of Business is this?</label>
@@ -89,7 +89,7 @@ if ($_POST['headline'] != null && $_POST['price'] != null && $_POST['address'] !
             </div>
         </div>
 </div>
-<button type="submit" class="btn btn-primary" id="but1"  required>Submit</button>
+<button type="submit" class="btn btn-primary" id="but1" required>Submit</button>
 </form>
 <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">

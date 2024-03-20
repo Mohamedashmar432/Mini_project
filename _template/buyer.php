@@ -215,7 +215,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form method="post" action="https://formspree.io/f/xbjnaabk">
+        <form id="contact-form" >
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Name:</label>
             <input type="text" name="name" class="form-control" id="recipient-name">
@@ -237,3 +237,29 @@
     </div>
   </div>
 </div>
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var formData = new FormData(event.target);
+    
+    fetch("https://formspree.io/f/xbjnaabk", {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            alert('Message sent successfully!');
+        } else {
+            alert('An error occurred while sending the message.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+
+    document.getElementById('contact-form').reset();
+});
+</script>

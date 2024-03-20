@@ -32,7 +32,7 @@
               <li>Priority email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            <a type="button" class="w-100 btn btn-lg btn-primary" href="./main.payment.php">Get started</a>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@
               <li>Phone and email support</li>
               <li>Help center access</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+            <a type="button" class="w-100 btn btn-lg btn-primary" href="./main.payment.php">Contact us</a>
           </div>
         </div>
       </div>
