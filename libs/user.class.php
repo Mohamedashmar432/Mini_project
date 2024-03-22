@@ -17,6 +17,7 @@ class user
         if ($conn->query($sql) === TRUE) {
             $result = true;
             $_SESSION['username']= $user;
+            $_SESSION['Loggedin'] =true;
         } else {
             $result = $conn->error; // Change $conn->result to $conn->error to get the error message
         }
@@ -38,6 +39,7 @@ class user
                 $rows = $result->fetch_assoc();
                 if (password_verify($pass, $rows['password'])) {
                     $_SESSION['username'] = $rows['username'];
+                    $_SESSION['Loggedin'] =true;
                     return $rows['username'];
                 } else {
                     return false;

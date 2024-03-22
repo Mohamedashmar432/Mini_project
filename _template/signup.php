@@ -16,7 +16,6 @@ if ($_POST['username'] != null && $_POST['password'] != null && $_POST['email'] 
 
   <main class="form-signup w-100 m-auto">
     <form method="post" action=" <?php echo  $_SERVER["PHP_SELF"]; ?>">
-      <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
       <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
       <div class="form-floating">
         <input type="text" class="form-control" id="floatingInput" placeholder="Username" name="username">

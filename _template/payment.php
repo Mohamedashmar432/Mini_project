@@ -1,4 +1,4 @@
-<section>
+<section style="margin:20px;">
   <div class="container py-5">
     <div class="row d-flex justify-content-center">
       <div class="col-md-12 col-lg-10 col-xl-8">
@@ -58,7 +58,7 @@
             <h6 class="mt-4 mb-3 text-primary text-uppercase">ADD PAYMENT METHOD</h6>
 
             <div class="form-outline">
-              <input type="text" id="formControlLg" class="form-control form-control-lg" />
+              <input type="text" id="formControlLg" class="form-control form-control-lg">
               <label class="form-label" for="formControlLg">Email address</label>
             </div>
             <div class="mt-3">

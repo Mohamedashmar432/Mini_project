@@ -4,8 +4,7 @@
       <div class="card mb-4">
         <div class="card-body text-center">
           <img src="./assets/avatar.png" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-          <h5 class="my-3">John Smith</h5>
-          <p class="text-muted mb-1">Full Stack Developer</p>
+          <h5 class="my-3"><?php echo $_SESSION['username'];?> </h5>
           <p class="text-muted mb-4">Bay Area, San Francisco, CA</p>
           <div class="d-flex justify-content-center mb-2">
             <button type="button" class="btn btn-primary">Follow</button>
